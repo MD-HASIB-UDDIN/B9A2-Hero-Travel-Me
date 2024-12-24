@@ -1,0 +1,179 @@
+/* shared styles */
+* {
+    font-family: "Mulish", serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    color: #FF5400 !important;
+}
+
+/* header area styles */
+
+/* navbar area styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .logo img {
+    width: 56px;
+    height: 48px;
+}
+
+.navbar .logo h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.navbar .logo h2 span {
+    color: #FF5400;
+    margin-left: 5px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 20px;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* banner area styles */
+
+.banner {
+    background: linear-gradient(0deg, #626262a6, #0000008c), url(Images/banner.png);
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 90px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 60px;
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 60px;
+}
+
+.banner .select-location {
+    width: 680px;
+    background-color: #ffffff45;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.select-location ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.select-location ul li form input {
+    color: #131318;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.select-location ul #Location,
+.select-location ul #select-type {
+    color: #131318;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.select-location ul li .btn-primary {
+    color: #ffffff;
+    background-color: #FF5400;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive for small devices */
+
+/* Responsive for mobile */
+
+@media screen and (max-width:576px) {
+    .banner {
+        width: 90%;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner p {
+        color: #ffffff;
+        text-align: center;
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    .banner .select-location {
+        width: 80%;
+    }
+
+    .banner .select-location ul {
+        flex-direction: column;
+    }
+
+    .banner .select-location ul li form input {
+        width: 320px;
+    }
+
+    .banner .select-location ul li #Location,
+    .banner .select-location ul li #select-type
+    {
+        width: 340px;
+    }
+
+}
