@@ -72,7 +72,7 @@ a {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 90px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .banner h1 {
@@ -138,6 +138,444 @@ a {
     cursor: pointer;
 }
 
+/* main area styles */
+/* Our Popular Tours styles */
+.our-popular-tours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 80px 0;
+}
+
+.our-popular-tours .content {
+    width: 580px;
+}
+
+.our-popular-tours .content h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.our-popular-tours .content ul li {
+    color: #131318;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.our-popular-tours .content p {
+    color: #131318;
+    text-align: justify;
+    padding: 30px 0;
+}
+
+.our-popular-tours .content button {
+    color: #ffffff;
+    background-color: #FF5400;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* Choose Destination Area Styles */
+
+.choose-destination {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.choose-destination h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.choose-destination p {
+    color: #131318;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.choose-destination .destination-columns-1,
+.choose-destination .destination-columns-2,
+.choose-destination .destination-columns-3
+ {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.des-name h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.des-name img {
+    width: 100%;
+}
+
+/* Why Choose us Styles */
+
+.why-choose-us {
+    width: 1170px;
+    margin: 40px auto;
+}
+
+.why-choose-us .title,
+.deals-discounts .title
+{
+    text-align: center;
+}
+
+.why-choose-us .title h2,
+.deals-discounts .title h2
+{
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.why-choose-us .title p,
+.deals-discounts .title p
+{
+    color: #131318;
+    padding-bottom: 40px;
+}
+
+.why-choose-us .top-box {
+    display: flex;
+    gap: 20px;
+}
+
+.box-content-left {
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.top-box .box-content-right {
+    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid #99E6FC;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.bottom-box .box-content-bottom {
+    background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.box-content-left h2,
+.box-content-right h2,
+.box-content-bottom h2
+{
+    padding: 10px 0;
+    font-weight: 800;
+}
+
+.why-choose-us .bottom-box {
+    width: 575px;
+    margin: 0 auto;
+}
+
+/* Deals & Discounts */
+
+.deals-discounts {
+    width: 1170px;
+    margin: 70px auto 10px;
+}
+
+.deals-discounts .box-top-bottom {
+    background: url("Images/bench-1.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.deals-discounts .box-middle {
+    background: url("Images/bench-2.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.deals-discounts .box-top-bottom .box-content {
+    background: linear-gradient(0deg, #ffffffb5, #ffffffc9);
+    width: 480px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    padding: 60px;
+    border-radius: 16px;
+}
+
+.deals-discounts .box-middle .box-content {
+    background: linear-gradient(0deg, #ffffffb5, #ffffffc9);
+    width: 480px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    padding: 60px;
+    border-radius: 16px;
+}
+
+.deals-discounts .box-top-bottom .box-content ul,
+.deals-discounts .box-middle .box-content ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.deals-discounts .box-top-bottom .box-content ul li,
+.deals-discounts .box-middle .box-content ul li {
+    padding-right: 30px;
+}
+
+.deals-discounts .box-top-bottom .box-content ul li i,
+.deals-discounts .box-middle .box-content ul li i {
+    color: #FF5400;
+    font-size: 19px;
+    padding-right: 5px;
+}
+
+.deals-discounts .box-top-bottom .box-content h2,
+.deals-discounts .box-middle .box-content h2 {
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+.deals-discounts .box-top-bottom .box-content p,
+.deals-discounts .box-middle .box-content p {
+    color: #5A5A5D;
+    padding-bottom: 25px;
+}
+
+.deals-discounts .box-top-bottom .box-content h3,
+.deals-discounts .box-middle .box-content h3 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.deals-discounts .box-top-bottom .box-content button,
+.deals-discounts .box-middle .box-content button,
+.mountain-bangladesh-container .content button
+{
+    background-color: #FF5400;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.see-all-package {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.see-all-package button {
+    background-color: #FF5400;
+    color: #ffffff;
+    padding: 12px 25px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* Mountain Bangladesh Area Styles */
+
+.mountain-bangladesh-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mountain-bangladesh-container .content {
+    width:520px;
+}
+
+.mountain-bangladesh-container .content h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.mountain-bangladesh-container .content p {
+    padding: 20px 0;
+    color: #5A5A5D;
+}
+
+.mountain-bangladesh-container .content li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.mountain-bangladesh-container .img img {
+    width: 100%;
+}
+
+/* Newsletter Area Styles */
+
+.newsletter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 1160px;
+    margin: 70px auto;
+}
+
+.newsletter-container .box {
+    border: 1px solid #FF5400;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.newsletter-container .box h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-container .box p {
+    padding: 20px 0;
+    color: #5A5A5D;
+    border-bottom: 1px solid #5A5A5D;
+    margin-bottom: 20px;
+}
+
+.newsletter-container .box form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsletter-container .box form .input {
+    padding: 20px;
+    color: #5A5A5D;
+    border: none;
+    outline: none;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 8px;
+}
+
+.newsletter-container .box form .Submit {
+    color: #ffffff;
+    background: #FF5400;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+}
+
+.newsletter-container .img img {
+    width: 100%;
+}
+
+.newsletter-container .img {
+    position: relative;
+}
+
+.newsletter-container .img .coupon {
+    background: #FF5400;
+    color: #ffffff;
+    width: 200px;
+    text-align: center;
+    padding: 25px;
+    line-height: 1.5;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 42px;
+    right: 10px;
+    transform: rotate(-20deg);
+}
+
+/* footer area styles */
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 80px 0 30px;
+}
+
+footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .logo img {
+    width: 56px;
+    height: 48px;
+}
+
+footer .logo h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+footer .logo h2 span {
+    color: #FF5400;
+    margin-left: 5px;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+    width: 45%;
+    margin: 0 auto;
+}
+
+footer ul li a {
+    color: #131318;
+}
+
+footer .maked {
+    color: #5A5A5D;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
 /* Responsive for small devices */
 
 /* Responsive for mobile */
@@ -167,13 +605,126 @@ a {
     }
 
     .banner .select-location ul li form input {
-        width: 320px;
+        width: 290px;
     }
 
     .banner .select-location ul li #Location,
     .banner .select-location ul li #select-type
     {
-        width: 340px;
+        width: 310px;
     }
 
+    /* Our Popular Tours styles */
+
+    .our-popular-tours {
+        flex-direction: column;
+    }
+
+    .our-popular-tours .content {
+        width: 90%;
+    }
+
+    .our-popular-tours .img {
+        position: relative;
+        text-align: center;
+    }
+
+    .our-popular-tours .img img {
+        width: 90%; 
+    }
+
+    /* Choose Destination Area */
+
+    .choose-destination {
+        width: 90%;
+    }
+
+    .choose-destination .destination-columns-1,
+    .choose-destination .destination-columns-2,
+    .choose-destination .destination-columns-3
+    {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .des-name h2 {
+        top: 110px;
+    }
+
+    .des-name img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Why Choose us */
+
+    .why-choose-us {
+        width: 90%;
+    }
+
+    .why-choose-us .top-box {
+        flex-direction: column;
+    }
+
+    .why-choose-us .bottom-box {
+        width: 100%;
+    }
+
+    /* Deals & Discounts area styles */
+
+    .deals-discounts {
+        width: 90%;
+        margin: 70px auto 10px;
+    }
+    
+    .deals-discounts .box-top-bottom,
+    .deals-discounts .box-middle {
+        border-radius: 16px;
+        height: 500px;
+    }
+    
+    .deals-discounts .box-top-bottom .box-content {
+        width: 74%;
+        right: 20px;
+        top: 50px;
+        padding: 30px;
+    }
+
+    .deals-discounts .box-middle .box-content {
+        width: 74%;
+        left: 20px;
+        top: 50px;
+        padding: 30px;
+    }
+
+    .deals-discounts .box-top-bottom .box-content ul,
+    .deals-discounts .box-middle .box-content ul {
+        flex-direction: column;
+    }
+
+    /* Mountain Bangladesh Area Styles */
+
+    .mountain-bangladesh-container {
+        flex-direction: column;
+    }
+
+    .mountain-bangladesh-container .content {
+        width: 90%;
+    }
+
+    .mountain-bangladesh-container .img {
+        text-align: center;
+    }
+
+    .mountain-bangladesh-container .img img {
+        width: 90%;
+    }
+
+    /* Newsletter Area Styles */
+
+    .newsletter-container {
+        width: 90%;
+        flex-direction: column;
+        margin: 30px auto;
+    }
 }
